@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap');
 
+body {
+  background-color: #faf2f2;
+}
+
 #title {
   font-family: 'Muli', sans-serif;
   font-size: 10vh;
   text-align: center;
   margin: auto;
   padding: auto;
+  color: #ba2545;
 }
 
 #subtitle {
@@ -29,8 +34,11 @@
   text-align: left;
   font-family: 'Archivo', sans-serif;
   font-size: 3vh;
-  font-weight: bold;
   padding: 1vh;
+}
+
+#about li b {
+  color: #bd116d;
 }
 
 #upload-button {
@@ -54,7 +62,7 @@
     padding:5px 15px;
     background:#ccc;
     border:0 none;
-    cursor:pointer;
+    cursor: pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
