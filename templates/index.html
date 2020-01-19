@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holly</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
   </head>
     <div id="title"><u>Holly</u></div>
     <div id="subtitle">A digital language interpreter</div>
@@ -14,13 +14,13 @@
         <li>1 in every 25 Canadians has impaired hearing</li>
       </ul>
       <p>Holly is a service that is intended to make the lives of these people easier. Our service provides you an American Sign Language translation of an audio file
-                          or that provides an English translation of a video in ASL.</p>
+                          or an English translation of a video in ASL.</p>
     </div>
     <div id="upload-button">
       <p>Click on the "Browse..." button to choose a file and then submit to upload:</p>
 
-      <form action="/action_page.php">
-        <input type="file" id="myFile" name="filename">
+      <form action="/handleUpload" method="post" enctype="multipart/form-data">
+        <input type="file" id="myFile" name="photo">
         <input type="submit" value="Convert">
       </form>
     </div>
