@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap');
+
+body {
+  background-color: #faf2f2;
+}
+
+#title {
+  font-family: 'Muli', sans-serif;
+  font-size: 10vh;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  color: #ba2545;
+}
+
+#subtitle {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2vh;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 8vh;
+}
+
+#about {
+  font-family: 'Frank Ruhl Libre', serif;
+  text-align: center;
+  margin: 10vh 31vw;
+}
+
+#about li {
+  list-style-type: none;
+  text-align: left;
+  font-family: 'Archivo', sans-serif;
+  font-size: 3vh;
+  padding: 1vh;
+}
+
+#about li b {
+  color: #bd116d;
+}
+
+#upload-button {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 2vh;
+}
+
+#upload-button input[type=file] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#upload-button input[type=file]:focus {
+    border-color:#333;
+}
+
+#upload-button input[type=submit] {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#download {
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+  font-size: 2vh;
+  margin-top: 7vh;
+}
+
+#download button {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
